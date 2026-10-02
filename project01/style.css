@@ -1,6 +1,4 @@
-/* ==========================================================================
-   Design System & CSS Custom Properties - Simple Clean Aesthetic
-   ========================================================================== */
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
 
 :root {
@@ -53,9 +51,6 @@
   --container-width: 1160px;
 }
 
-/* ==========================================================================
-   Base & Reset Styles
-   ========================================================================== */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -146,10 +141,7 @@ body {
   padding: 0 1.5rem;
 }
 
-/* ==========================================================================
-   Header & Navigation
-   ========================================================================== */
-.site-header {
+header {
   position: sticky;
   top: 1rem;
   z-index: 100;
@@ -157,7 +149,7 @@ body {
   margin-bottom: 2.25rem;
 }
 
-.nav-bar {
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -171,7 +163,7 @@ body {
   transition: all var(--transition-normal);
 }
 
-.nav-bar:hover {
+nav:hover {
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: var(--shadow-md);
 }
